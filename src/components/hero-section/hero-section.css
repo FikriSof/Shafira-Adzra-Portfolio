@@ -1,0 +1,76 @@
+.cv-btn {
+  background: #9c2052;
+  color: #f3f4e6;
+}
+
+.cv-btn a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-btn a {
+  text-decoration: none;
+}
+
+.hero-content h5 {
+  font-weight: 300;
+}
+
+.hero-title {
+  color: #3b3f4a;
+}
+
+.hero-title span {
+  color: #0e7467;
+}
+
+.hero-run {
+  color: blue;
+}
+
+.hero-img {
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+}
+
+.hero-section {
+  padding-top: 150px;
+}
+
+.hero-content p {
+  line-height: 30px;
+  font-weight: 400;
+}
+
+/* ===== Responsive ===== */
+@media only screen and (max-width: 992px) {
+  .hero-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .hero-content p {
+    font-size: 0.8rem;
+  }
+
+  .hero-btns button {
+    display: block;
+    padding: 5px 20px;
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero-img {
+    margin: auto;
+  }
+
+  .hero-content {
+    margin-bottom: 50px;
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+  }
+}

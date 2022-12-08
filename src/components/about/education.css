@@ -1,0 +1,25 @@
+.edu-content {
+  background: #e6e8c9;
+  border-radius: 10px;
+}
+
+.edu-logo img {
+  width: 180px;
+}
+
+.edu-logo2 img {
+  width: 110px;
+}
+
+.edu-title h5 {
+  color: #54514a;
+  font-weight: bold;
+}
+
+.edu-title h6 {
+  color: grey;
+}
+
+.edu-title {
+  margin-bottom: 15px;
+}
